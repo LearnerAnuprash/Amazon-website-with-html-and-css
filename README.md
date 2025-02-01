@@ -1,1 +1,1 @@
-Here are html and css files for my practice ecommerce website practice project
+Here are html and css files for my ecommerce website project ( practice )
