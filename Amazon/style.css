@@ -1,68 +1,109 @@
 header{
     background-color:black;
+    height:56px;
+    width:100%;
+    position:absolute;
+}
+
+body{
+    margin:0px;
 }
 
 #amazonlogo{
     height:50px;
     width:100px;
-}
-
-#Content{
-    border:#0F1111;
-    background-color:rgba(0,255,0,0.5);
-    text-align:center;
-    height:600px;
-    border:10px solid blue;
-    
-}
-
-footer{
-    border:#0F1111;
-    background-color: rgba(0,0,255,0.5);
-    text-align:center;
-    height:100px;
-    border:10px solid purple;
+    margin-right:35px;
 }
 
 #Navid{
     display:inline-flex;
-    flex-direction:row;
+    flex-direction:row; 
+    align-items:center;
+    justify-content:space-evenly;
     
 }
 
 #search{
     width:30px;
     height:30px;
+    
 }
 
 #searchbox{
     background-color: orange;
-    border:1px solid rgb(255, 255, 255);
-    width:45px;
-    height:45px;
+    border:1.25px solid rgb(255, 149, 0);
+    width:32px;
+    height:32px;
+    margin-right:32px;
    
 }
 
 #location{
     background-color:white;
-    width:auto;
+    width:26px;
+    height:30px;
+    border:1px solid rgb(255, 255, 255);
+    border-radius:40%;
+}
+
+#locationicon{
+    width:25px;
+    height:30px;
+}
+
+
+#cartbox{
+    background-color:white;
+    width:fit-content;
     height:fit-content;
     border:1px solid rgb(255, 255, 255);
     border-radius:50%;
 }
 
 
-#cartbox{
-    background-color:white;
-    width:auto;
-    height:fit-content;
-    border:1px solid rgb(255, 255, 255);
+#carticon{
+    width:20px;
+    height:20px;
+
 }
 
+.general_dropdown{
+    width:44px;
+    height:36px;
+}
 
-#carticon{
-    width:30px;
+#input{
     height:30px;
+    width:550px;
+}
+
+#delivery{
+    margin-right:40px;
+    color:white;
+}
+
+#dropdown_lang{
+    margin-right:35px;
+}
+
+#signin{
+    color:white;
+    margin-right:50px;
+}
+
+#orders{
+    color:white;
+    margin-right:32px;
+}
+
+#cart{
+    color:white;
+    margin-right:8px;
+}
+
+#seller{
+    color:white;
+    margin-right:30px
 }
 
 

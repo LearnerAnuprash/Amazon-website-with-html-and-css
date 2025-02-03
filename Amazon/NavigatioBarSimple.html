@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-                Navigation Bar
+                Amazon.in
         </title>
         <link rel="stylesheet" href="/Amazon/style.css">
     </head>
@@ -13,12 +13,13 @@
 
     <body>
          <header>
+                <nav>
                  <div id="Navid" >
                            <a href="#"><img src="/Amazon/Amazon logo white text.png" id="amazonlogo"></a> 
 
                            <div id="location"><img src="/Amazon/location-dot-solid.svg" id="locationicon"></div>
                             
-                           <div style="color:white">Set Delivery Location</div>
+                           <div id="delivery">Delivery Location</div>
 
                            <form>
                                 <select id="dropdown_category" name="dropdown_category" class="general_dropdown">
@@ -46,7 +47,7 @@
                                 </select>
                            </form>
 
-                           <div><input type="text" placeholder="Search Amazon.in"></div>
+                           <div><input type="text" placeholder="Search Amazon.in" id="input"></div>
 
                            <div id="searchbox">
                             <a href="#"><img src="/Amazon/magnifying-glass-solid.svg" id="search"></a>
@@ -78,17 +79,19 @@
                                 </select>
                            </form>
 
-                           <div style="color:white">Sign in</div>
-                           <div style="color:white">Accounts</div>
+                           <div id="signin" >Sign in</div>
 
-                           <div style="color:white">Orders</div>
+                           <div id="orders">Orders</div>
 
-                           <div style="color:white">Cart</div>
+                           <div id="seller">Become a seller</div>
+
+                           <div id="cart">Cart</div>
 
                            <div id="cartbox"><img src="/Amazon/cart-shopping-solid.svg" id="carticon"></div>
                             
 
                  </div>
+                </nav>
          </header>
 
         <div id="Content">
