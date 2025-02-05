@@ -124,14 +124,15 @@ body{
     background-color:rgb(29, 44, 62);
     height:35px;
     width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
 }
 
 .second_nav_items{
     color:white;
     text-decoration:none;
     font-family:sans-serif;
-    display:inline-flex;
-    align-items:center;
 }
     
 
